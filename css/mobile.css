@@ -1,0 +1,22 @@
+#article{
+  padding: 0 2rem;
+  padding-top: 2rem;
+}
+
+#services{
+  padding: 0 2rem;
+  }
+
+  #brochure .support-2{
+    flex-direction: column;
+    
+  } 
+
+  #brochure .support-2 .support-2-img{
+    height: 250px;
+    flex-basis: auto;
+  }
+
+  #service-showcase{
+    height: 30vh;
+  }

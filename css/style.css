@@ -1,0 +1,387 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font: normal 16px Arial, Helvetical, sans-serif;
+  line-height: 1.7em; 
+}
+
+/* Utilities */
+.container{
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  background:#333;
+  color: #fff;
+}
+
+.bg-blue{
+  background: rgb(4, 4, 102);
+  color: #fff;
+}
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+
+.bg-light{
+  background: #dddddd;
+  color: #333;
+}
+.bg-orange{
+  background: orange;
+  color: #fff;
+}
+
+.py-1{padding: 1rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+
+.px-1{padding: 0 1rem;}
+.px-2{padding: 0 2rem;}
+.px-3{padding: 0 3rem;}
+
+/* Main header styling */
+#top-header{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+/* .top-header{
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+} */
+
+.contact-info i{
+padding: 0.5rem;
+}
+
+.social-profile{
+  display: flex;
+
+}
+
+.social-profile div{
+  padding: 0.5rem;
+}
+
+.social-profile .fa-facebook-square{
+  background: blue;
+}
+.social-profile .fa-instagram-square{
+  background: #ff000d;
+}
+.social-profile .fa-twitter-square{
+  background: #0099ff;
+}
+.social-profile .fa-pinterest-square{
+  background: #ff008c;
+}
+
+/* main header */
+#main-header{
+  position: sticky;
+  top: 0;
+  background: #ecf3cd;
+}
+
+#main-header .logo a{
+  background: none;
+}
+.logo-navbar{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+/* Navbar */
+#navbar{
+  display: flex;
+ align-items: center;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 0 1rem;
+}
+
+#navbar li a{
+  background: none;
+  color: #333;
+}
+
+#navbar li a:hover{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Section: Showcase */
+#showcase{
+  /* position: relative; */
+  background: url('../images/man_and_woman_walking.png') no-repeat center center/cover;
+  height: 60vh;
+  width: 100vw;
+}
+
+#showcase h1{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 1.5rem;
+}
+
+#showcase .text-primary{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+#showcase .text-primary img{
+  padding: 0 0.5rem;
+  width: 100px;
+}
+
+#showcase .text-primary .center-name{
+  margin-left: 50%;
+  margin-top: -40px;
+  color: #fff;
+}
+
+/* Section: Article */
+#article{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem 0;
+}
+#article .article-2{
+  margin-left: 4rem;
+}
+
+#our-staff{
+  display: flex;
+  margin: 3rem 0;
+}
+
+#our-staff div{
+  flex: 1;
+}
+#our-staff .our-staff-image{
+  background: url('../images/people.jpg') no-repeat center center/cover;
+}
+
+#our-staff .our-staff-content{
+  flex: 1;
+  padding: 2rem;
+  color: #fff;
+}
+
+.our-staff-content li{
+  list-style: none;
+}
+
+/* Main Footer */
+#main-footer{
+  text-align: center;
+  padding: 2rem;
+  margin-top: 0.75px;
+}
+
+/* Section:Services showcase styling */
+#service-showcase{
+  background: url('../images/nurse_supporting_elder.png') no-repeat center/cover;
+  height: 50vh;
+  overflow: hidden;
+}
+
+#service-showcase h1{
+  text-align: center;
+  margin-top: 15%;
+}
+
+/* Section: Service */
+#services{
+margin:2rem 0;
+}
+
+#services i{
+  margin-top: 2rem;
+}
+
+#services .service-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#services .service-1 div{
+  padding-left: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+#services .service-1 ul li{
+  list-style: none;
+}
+
+#services .service-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#services .service-2 div{
+  padding-left: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+/* Our Support Styling */
+#brochure .brochure-cover-img{
+  background: url('../images/nurse-talking-to-erderly.png') no-repeat center center/cover;
+  margin-top: 4rem;
+  /* margin-left: 20%; */
+  height: 50vh;
+}
+
+#brochure .support-1{
+  display: flex;
+justify-content: space-evenly;
+margin-top: 3rem;
+
+}
+
+#brochure .support-1 div{
+padding: 1rem 2rem;
+}
+#brochure .support-1 div ul li{
+list-style-type: square;
+}
+
+#brochure .support-2{
+  display: flex;
+  margin: 3rem 0;
+  
+}
+
+#brochure .support-2-img{
+  background: url('../images/community_involvement.png') no-repeat center center/cover;
+ 
+  height: 50vh;
+  /* margin-left: 1rem; */
+}
+
+
+#brochure .support-2 div{
+  flex: 1;
+}
+
+#brochure .support-3{
+  display: flex;
+  justify-content: space-between;
+}
+#brochure .support-3 .content-1 p{
+margin-top: 4rem;
+}
+#brochure .support-3 .content-1{
+  width: 200%;
+}
+
+/* top-footer styling */
+#top-footer{
+  display: flex;
+  margin-top: 4rem;
+justify-content: space-between;
+}
+
+#top-footer .footer-column-1 ul{
+  list-style: none;
+}
+#top-footer .footer-column-1 ul li a:hover{
+  color:  rgb(231, 236, 182);
+}
+
+/* About Styling */
+#about-showcase{
+  background: url('../images/people.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+#about-showcase .about-showcase-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  text-align: center;
+
+  /* overlay */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#about-showcase .about-showcase-content h1{
+color: #fff;
+font-weight: bolder;
+font-size: 44px;
+margin-bottom: 1rem;
+}
+#about-showcase .about-showcase-content p{
+color: #fff;
+/* font-weight: bolder; */
+font-size: 20px;
+margin-bottom: 1rem;
+}
+
+/* Section:Contact */
+#contact .contact-form{
+  width: 60%;
+ margin: auto;
+ background: #a7e649;
+ padding: 2rem 0;
+}
+#contact .contact-form{
+  width: 60%;
+ margin: auto;
+ background: #a7e649;
+ padding: 2rem 0;
+}
+
+#contact .contact-form .form-group{
+  padding: 0 1rem;
+}
+#contact .contact-form .form-group label{
+  display: block;
+  padding-top: 1rem;
+}
+#contact .contact-form .form-group input{
+  display: block;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+#contact .contact-form .form-group textarea{
+  width: 100%;
+  height: 100px;
+}
+#contact .contact-form .form-group .btn{
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#contact .contact-form .form-group .btn:hover{
+ background: blue;
+  font-size: large;
+}
